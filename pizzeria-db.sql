@@ -26,28 +26,18 @@ CREATE TABLE pizza_ingredient (
 	PRIMARY KEY (id)
 ) DEFAULT CHARSET = utf8;
 
+CREATE TABLE orders (
+	id int NOT NULL AUTO_INCREMENT,
+	order_date datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+	PRIMARY KEY (id)
+) DEFAULT CHARSET = utf8;
+
 CREATE TABLE order_item (
 	id int NOT NULL AUTO_INCREMENT,
 	pizza_id int NOT NULL,
+	order_id int NOT NULL,
 	quantity int NOT NULL DEFAULT '1',
 	FOREIGN KEY (pizza_id) REFERENCES pizzas (id),
+	FOREIGN KEY (order_id) REFERENCES orders (id),
 	PRIMARY KEY (id)
 ) DEFAULT CHARSET = utf8;
-
-CREATE TABLE orders (
-	id int NOT NULL AUTO_INCREMENT,
-	order_item_id int NOT NULL,
-	order_date datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
-	FOREIGN KEY (order_item_id) REFERENCES order_item (id),
-	PRIMARY KEY (id)
-) DEFAULT CHARSET = utf8;
-
-
-
-
-
-
-
-
-
-
