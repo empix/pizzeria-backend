@@ -1,4 +1,4 @@
-<h1 align="center">CRUD Pizzeria</h1>
+<h1 align="center">Pizzeria - Backend</h1>
 
 Este repositório contém minha solução para o desafio encontrado [aqui](https://github.com/AmbulnzLLC/fullstack-challenge/tree/master/backend). <br>
 
