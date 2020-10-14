@@ -15,7 +15,7 @@ module.exports = {
         const ingredients = await connection
           .promise()
           .query(
-            'SELECT ingredients.name FROM pizza_ingredient INNER JOIN ingredients ON ingredients.id = pizza_ingredient.ingredient_id WHERE pizza_id = ?',
+            'SELECT ingredients.name FROM ingredients INNER JOIN pizza_ingredient ON pizza_ingredient.ingredient_id = ingredients.id WHERE pizza_ingredient.pizza_id = ?',
             [pizza.id]
           )
           .then(([results]) => results)
