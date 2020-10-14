@@ -33,13 +33,13 @@ De forma simples eu queria colocar em prática o que aprendi de sql montando as 
 1- Clone o repositório
 
 ```
-git clone https://github.com/empixx/crud-pizzeria.git
+git clone https://github.com/empixx/pizzeria-backend.git
 ```
 
 2- Entre na pasta do repositório
 
 ```
-cd crud-pizzeria
+cd pizzeria-backend
 ```
 
 3- Instale as dependências
