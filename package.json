@@ -1,8 +1,8 @@
 {
-  "name": "crud-pizzeria",
+  "name": "pizzeria-backend",
   "version": "1.0.0",
   "main": "./src/index.js",
-  "repository": "git@github.com:empixx/crud-pizzeria.git",
+  "repository": "git@github.com:empixx/pizzeria-backend.git",
   "author": "Ádrian <adrian.fr.fe@gmail.com>",
   "license": "MIT",
   "scripts": {
