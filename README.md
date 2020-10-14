@@ -48,9 +48,9 @@ cd pizzeria-backend
 yarn
 ```
 
-4- Você precisará de um banco de dados mysql com as tabelas de acordo com este .sql [pizzeria-db.sql](https://github.com/empixx/crud-pizzeria/blob/main/pizzeria-db.sql)
+4- Você precisará de um banco de dados mysql com as tabelas de acordo com este .sql [pizzeria-db.sql](https://github.com/empixx/pizzeria-backend/blob/main/pizzeria-db.sql)
 
-5- Crie e configure o .env de acordo com o [.env.example](https://github.com/empixx/crud-pizzeria/blob/main/.env.example)
+5- Crie e configure o .env de acordo com o [.env.example](https://github.com/empixx/pizzeria-backend/blob/main/.env.example)
 
 6- Inicie
 
