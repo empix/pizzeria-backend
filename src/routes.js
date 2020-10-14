@@ -1,8 +1,9 @@
 const express = require('express');
 const router = express.Router();
 
-router.get('/', (req, res) => {
-  return res.json({ otter: 'cute' });
-});
+const PizzaController = require('./controllers/PizzaController');
+
+router.get('/api/pizzas', PizzaController.index);
+router.post('/api/pizzas', PizzaController.store);
 
 module.exports = router;
