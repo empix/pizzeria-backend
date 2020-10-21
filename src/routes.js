@@ -8,6 +8,7 @@ router.get('/api/pizzas', PizzaController.index);
 router.post('/api/pizzas', PizzaController.store);
 
 router.get('/api/orders', OrderController.index);
+router.get('/api/orders/:id', OrderController.indexById);
 router.post('/api/orders', OrderController.store);
 
 module.exports = router;
