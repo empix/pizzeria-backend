@@ -28,6 +28,42 @@ De forma simples eu queria colocar em prática o que aprendi de sql montando as 
 
 ---
 
+### Endpoints
+
+**GET** - `/api/pizzas` - Lista todas as pizzas do banco de dados <br>
+**POST** - `/api/pizzas` - Adiciona uma pizza no banco de dados <br>
+**Exemplo de corpo json:**
+
+```json
+{
+  "name": "Margherita",
+  "price": "5.00",
+  "ingredients": ["tomato", "mozzarella"]
+}
+```
+
+<br>
+
+**GET** - `/api/orders` - Lista todos pedidos do banco de dados <br>
+**GET** - `/api/orders/:id` - Mostra detalhes sobre um pedido cujo id é passado na url <br>
+**POST** - `/api/orders` - Adiciona um pedido no banco de dados <br>
+**Exemplo de corpo json:**
+
+```json
+[
+  {
+    "pizzaId": 1,
+    "quantity": 2
+  },
+  {
+    "pizzaId": 4,
+    "quantity": 1
+  }
+]
+```
+
+---
+
 ### Rodando o projeto na sua máquina
 
 1- Clone o repositório
