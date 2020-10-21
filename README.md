@@ -62,5 +62,5 @@ yarn dev
 
 ### TODO
 
-- [] Tratar melhor os erros
-- [] Verificar existência dos registros no banco de dados para evitar erros
+- [ ] Tratar melhor os erros
+- [ ] Verificar existência dos registros no banco de dados para evitar erros
