@@ -10,12 +10,6 @@ Estava sem ideias do que fazer para colocar o que aprendi em prática, então re
 
 ---
 
-### Contribuições
-
-Qualquer contribuição com o objetivo de me ajudar será muito bem vinda!
-
----
-
 ### Tecnologias
 
 - [Node.js](https://nodejs.org)
